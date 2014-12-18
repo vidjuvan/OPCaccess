@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OPCaccessDs - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Temp\RSP12A4.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GR /GX /ZI /Od /I "Y:/tango/include/win32" /I ".." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_WINSTATIC" /D "_WIN32_DCOM" /Fp"Debug/OPCaccessDs.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Y:\tango\cppserver\protocols\OPCaccess\ClassFactory.cpp"
+"Y:\tango\cppserver\protocols\OPCaccess\OPCaccess.cpp"
+"Y:\tango\cppserver\protocols\OPCaccess\OPCaccessClass.cpp"
+"Y:\tango\cppserver\protocols\OPCaccess\OPCaccessDs\OPCaccessDs.cpp"
+"Y:\tango\cppserver\protocols\OPCaccess\OPCaccessDs\OPCaccessDsDlg.cpp"
+]
+Creating command line "cl.exe @C:\Temp\RSP12A4.tmp" 
+Creating temporary file "C:\Temp\RSP12A5.tmp" with contents
+[
+tangod.lib log4tangod.lib omniORB4d.lib COS4d.lib omniDynamic4d.lib omnithreadd.lib mswsock.lib ws2_32.lib comctl32.lib tango_static.res /nologo /subsystem:windows /incremental:yes /pdb:"Debug/OPCaccessDs.pdb" /debug /machine:I386 /out:"Debug/OPCaccessDs.exe" /pdbtype:sept /libpath:"Y:/tango/lib/win32/debug" 
+.\Debug\ClassFactory.obj
+.\Debug\OPCaccess.obj
+.\Debug\OPCaccessClass.obj
+.\Debug\OPCaccessDs.obj
+.\Debug\OPCaccessDsDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\OPCaccessDs.res
+]
+Creating command line "link.exe @C:\Temp\RSP12A5.tmp"
+<h3>Output Window</h3>
+Compiling...
+ClassFactory.cpp
+OPCaccess.cpp
+OPCaccessClass.cpp
+OPCaccessDs.cpp
+OPCaccessDsDlg.cpp
+Generating Code...
+Linking...
+OPCaccessDs.res : warning LNK4059: tango_static.res already specified; additional resource file ignored
+
+
+
+<h3>Results</h3>
+OPCaccessDs.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
